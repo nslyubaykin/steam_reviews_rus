@@ -62,7 +62,18 @@ pd.DataFrame({'sample_review': sample_texts,
               'label': label,
               'sentiment': sentiment})
 ```
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+Output:
+
+| sample_review  | score | label  | sentiment |
+| ------------- | ------------- | ------------- | ------------- |
+| Удалил спустя пару часов. Это просто невыносимо  | Content Cell  | Content Cell  | Content Cell  |
+| Эта игра настоящий шедевр! Она взорвала мои моооозгииии  | Content Cell  | Content Cell  | Content Cell  |
+| Одни баги, игра постоянно вылетает  | Content Cell  | Content Cell  | Content Cell  |
+| Захватывающий сюжет и интересный геймплей  | Content Cell  | Content Cell  | Content Cell  |
+| Отлично, если не играть  | Content Cell  | Content Cell  | Content Cell  |
+| Графон мыльный, куча доната и микротранзакций  | Content Cell  | Content Cell  | Content Cell  |
+| Динамичная боевка, наполненный открытый мир  | Content Cell  | Content Cell  | Content Cell  |
+| Зависает в главном меню  | Content Cell  | Content Cell  | Content Cell  |
+| Мой компьютер не потянет эту игру  | Content Cell  | Content Cell  | Content Cell  |
+| Вернул деньги  | Content Cell  | Content Cell  | Content Cell  |
+| Кидаю деньги в монитор  | Content Cell  | Content Cell  | Content Cell  |
