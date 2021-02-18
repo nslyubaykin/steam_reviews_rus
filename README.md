@@ -27,12 +27,12 @@ On 50k test dataset model was able to achieve:
 After clonning this repository run from it:
 
 Imports:
-```.bash
+```python
 import pandas as pd
 from steam_utils.sentiment_utils import *
 ```
 Load the models:
-```.bash
+```python
 # Loading model:
 RSRNet = tf.keras.models.load_model('russian_steam_review_model/RSRNet.h5')
 # Loading tokenizer:
@@ -42,5 +42,19 @@ steam_scorer = ScoreReview(tokenizer=steam_bpe, score_net=RSRNet,
                            pad='post', truncate='post', truncate_len=400)
 ```
 
+Your texts:
+```python
+sample_texts = ['Удалил спустя пару часов. Это просто невыносимо',
+                'Эта игра настоящий шедевр! Она взорвала мои моооозгииии',
+                'Одни баги, игра постоянно вылетает',
+                'Захватывающий сюжет и интересный геймплей',
+                'Отлично, если не играть',
+                'Графон мыльный, куча доната и микротранзакций',
+                'Динамичная боевка, наполненный открытый мир',
+                'Зависает в главном меню',
+                'Мой компьютер не потянет эту игру',
+                'Вернул деньги',
+                'Кидаю деньги в монитор']
+```
 
 
