@@ -66,14 +66,14 @@ Output:
 
 | sample_review  | score | label  | sentiment |
 | ------------- | ------------- | ------------- | ------------- |
-| Удалил спустя пару часов. Это просто невыносимо  | Content Cell  | Content Cell  | Content Cell  |
-| Эта игра настоящий шедевр! Она взорвала мои моооозгииии  | Content Cell  | Content Cell  | Content Cell  |
-| Одни баги, игра постоянно вылетает  | Content Cell  | Content Cell  | Content Cell  |
-| Захватывающий сюжет и интересный геймплей  | Content Cell  | Content Cell  | Content Cell  |
-| Отлично, если не играть  | Content Cell  | Content Cell  | Content Cell  |
-| Графон мыльный, куча доната и микротранзакций  | Content Cell  | Content Cell  | Content Cell  |
-| Динамичная боевка, наполненный открытый мир  | Content Cell  | Content Cell  | Content Cell  |
-| Зависает в главном меню  | Content Cell  | Content Cell  | Content Cell  |
-| Мой компьютер не потянет эту игру  | Content Cell  | Content Cell  | Content Cell  |
-| Вернул деньги  | Content Cell  | Content Cell  | Content Cell  |
-| Кидаю деньги в монитор  | Content Cell  | Content Cell  | Content Cell  |
+| Удалил спустя пару часов. Это просто невыносимо  | 0.311001  | 0 | Negative |
+| Эта игра настоящий шедевр! Она взорвала мои моооозгииии  | 0.995141  | 1 | Positive |
+| Одни баги, игра постоянно вылетает  | 0.061664  | 0 | Negative |
+| Захватывающий сюжет и интересный геймплей  | 0.997844  | 1 | Positive |
+| Отлично, если не играть  | 0.925283  | 1 | Positive |
+| Графон мыльный, куча доната и микротранзакций  | 0.101197  | 0 | Negative |
+| Динамичная боевка, наполненный открытый мир  | 0.994680  | 1 | Positive |
+| Зависает в главном меню  | 0.207798  | 0  | Negative |
+| Мой компьютер не потянет эту игру  | 0.894053  | 1 | Positive |
+| Вернул деньги  | 0.258352  | 0  | Negative |
+| Кидаю деньги в монитор  | 0.681771  | 1  | Positive |
